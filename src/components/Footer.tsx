@@ -26,7 +26,7 @@ const Footer = props => (
           }}
         />
       </span>{' '}
-      <a href="/privacy">Privacy</a> Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js v5.12.0</a>
+      <a href="/privacy">Privacy</a> Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js v5.12.6</a>
     </p>
   </footer>
 )
