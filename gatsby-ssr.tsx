@@ -4,7 +4,7 @@ import { Partytown } from '@builder.io/partytown/react'
 import Layout from './src/components/layout'
 
 const ORIGIN = 'https://www.googletagmanager.com'
-const GATSBY_GA_MEASUREMENT_ID = 'G-6YWM2JY5EH'
+const GATSBY_GA_MEASUREMENT_ID = 'GTM-N4SQDMPT'
 
 export const wrapPageElement: GatsbySSR['wrapPageElement'] = ({ element }) => {
   return <Layout>{element}</Layout>

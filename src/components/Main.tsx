@@ -186,7 +186,7 @@ const Main = props => {
           </li>
           <li>
             <a
-              href="https://github.com/donaldboulton/donboulton.com"
+              href="https://github.com/donaldboulton/donboulton.com-cloudflare"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -204,7 +204,7 @@ const Main = props => {
           </li>
           <li>
             <a
-              href="https://youtube.com/users/donaldboulton/"
+              href="https://www.youtube.com/channel/UCHED4RFSxXXNGDDvWpgzHXg"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
