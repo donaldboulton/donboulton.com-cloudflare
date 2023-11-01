@@ -1,0 +1,61 @@
+[build]
+  publish = "public"
+  command = "gatsby build"
+  NETLIFY_USE_YARN = "true"
+[build.environment]
+  NODE_VERSION = "18.17.1"
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = '''
+      https://donwboulton.com,
+      https://graphql.fauna.com,
+      https://graphql.fauna.com/graphql
+      https://img.badgesize.io/, 
+      https://www.unpkg.com/use-sound/dist/use-sound.esm.js.svg, 
+      https://www.google-analytics.com/analytics.js,
+      https://www.googletagmanager.com/gtag/js
+      https://static.doubleclick.net, 
+      https://cdn.viglink.com, 
+      https://github.com, 
+      https://bitbucket.status.atlassian.com, 
+      https://links.services.disqus.com, 
+      https://img.shields.io, 
+      https://secure.gravatar.com, 
+      https://identity.netlify.com, 
+      https://media-library.cloudinary.com, 
+      https://withspectrum.github.io, 
+      https://cdn.rawgit.com https://api.bitbucket.org, 
+      https://widget.cloudinary.com, 
+      https://www.youtube.com, 
+      https://www.youtube.de, 
+      https://cdn.lr-ingest.io, 
+      https://d33wubrfki0l68.cloudfront.net, 
+      https://www.googletagmanager.com,
+      https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js,
+      https://i.ytimg.com, 
+      https://fonts.gstatic.com, 
+      https://www.google-analytics.com, 
+      https://storage.googleapis.com, 
+      https://yt3.ggpht.com, 
+      https://ocsp.digicert.com, 
+      https://graph.facebook.com, 
+      https://api.tumblr.com, 
+      https://www.reddit.com, 
+      https://googleads.g.doubleclick.net, 
+      https://static.doubleclick.net, 
+      https://api.applause-button.com, 
+      https://apis.google.com, 
+      https://r.lr-ingest.io, 
+      https://connect.facebook.net, 
+      https://res.cloudinary.com, 
+      https://i.ytimg.com,
+      https://api.github.com,
+      https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js,
+      https://stats.g.doubleclick.net/,
+      https://www.google.com/recaptcha/api.js,
+      https://cdn.lr-in-prod.com/LogRocket.min.js,
+      https://www.gstatic.com/recaptcha/releases/0aeEuuJmrVqDrEL39Fsg5-UJ/recaptcha__en.js,
+      https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js,
+      https://unpkg.com/leaflet@1.9.2/dist/leaflet.css
+    '''
